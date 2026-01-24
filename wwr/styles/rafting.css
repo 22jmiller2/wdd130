@@ -6,6 +6,9 @@
     --accent1-color: #264653;
     /*Slate blue*/
 
+    --accent2-color: #F2D16B;
+    /*yellow*/
+
     --heading-font: "Times New Roman", "Georgia", serif;
 
     --body-font: Arial, Helvetica, sans-serif;
@@ -72,4 +75,11 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: absolute;
+    top: 410px;
+    color: var(--accent2-color);
+    font-weight: bold;
 }
