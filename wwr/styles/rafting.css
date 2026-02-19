@@ -24,6 +24,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: aliceblue;
 }
 
 header,
@@ -309,7 +310,37 @@ main .contact-form {
 }
 
 main a.buttn {
-    display: inline-block;
-    margin-top: 1rem;
+    display: block;
+    margin: 1rem auto;
     text-align: center;
+}
+
+.trips-button {
+    text-align: center;
+}
+
+.trips-button .buttn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    width: auto;
+    display: inline-block;
+}
+
+/*trips page styling*/
+
+.book-buttn {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.book-buttn .buttn {
+    width: auto;
+    display: inline-block;
+}
+
+.trip-table {
+    font-size: 1.3rem;
+    color: var(--primary-color);
 }
